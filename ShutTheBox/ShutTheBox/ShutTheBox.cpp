@@ -36,7 +36,7 @@ int main()
         ifrechnung();
 
         while (wurfelzsm != 0) {
-            if (wurfelzsm <= -1 || wurfelzsm < ) {
+            if (wurfelzsm <= -1) {
                 system("cls");
                 cout << setw(50) << "Sie haben Verloren!!" << endl;
                 Sleep(3000);
