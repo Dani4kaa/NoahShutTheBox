@@ -36,12 +36,12 @@ int main()
         ifrechnung();
 
         while (wurfelzsm != 0) {
-           /* if (wurfelzsm <= -1 || wurfelzsm < ) {
+            if (wurfelzsm <= -1 || wurfelzsm < ) {
                 system("cls");
                 cout << setw(50) << "Sie haben Verloren!!" << endl;
                 Sleep(3000);
                 exit(0);
-            }*/
+            }
             spielfeld();
             cout << "\n\n\n\n" << setw(65) << "Zusammen: " << wurfelzsm;
             cout << endl << "W" << char(132) << "hlen sie ein Zahl aus: ";
@@ -51,10 +51,9 @@ int main()
         
 
       /*  if (gewonnen == 9) {//Gewonnen muss auf 9 oder so sein und wurfelzsm auf 0 | Dann win
-            break;
+            win();
         }*/
     } while (1);
-    win();
 }
 
 void win() {
