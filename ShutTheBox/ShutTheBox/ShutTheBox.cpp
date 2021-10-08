@@ -46,12 +46,14 @@ int main()
             cout << "\n\n\n\n" << setw(65) << "Zusammen: " << wurfelzsm;
             cout << endl << "W" << char(132) << "hlen sie ein Zahl aus: ";
             cin >> auswahlzahl;
-            ifrechnung();
+            if (auswahlzahl <= wurfelzsm) {
+                ifrechnung();
+            }
         }
         
 
       /*  if (gewonnen == 9) {//Gewonnen muss auf 9 oder so sein und wurfelzsm auf 0 | Dann win
-            win();
+             win();
         }*/
     } while (1);
 }
